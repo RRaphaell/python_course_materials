@@ -25,15 +25,8 @@ P.S
 *********************************** წარმატებები ***********************************
 """
 
-# define function is_palindrome
-def is_palindrome():
+
+def is_palindrome():  # fill arguments
+    # write your code here
     pass
 
-# call your function and print some examples
-def caller():
-    # write your code here
-    is_palindrome()
-
-
-if __name__ == "__main__":
-    caller()

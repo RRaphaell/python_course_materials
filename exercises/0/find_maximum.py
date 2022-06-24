@@ -19,7 +19,3 @@ P.S:
 def get_maximum():
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    get_maximum()

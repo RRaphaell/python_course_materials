@@ -18,14 +18,8 @@ output:
 
 *********************************** წარმატებები ***********************************
 """
-# define function increase_salary
 
 
-# call your function and print some examples
-def caller():
+def increase_salary():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()

@@ -29,14 +29,7 @@ P.S
 *********************************** წარმატებები ***********************************
 """
 
-# define function char_in_word
 
-
-# call your function and print some examples
-def caller():
+def char_in_word():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()

@@ -21,14 +21,8 @@ P.S
 
 *********************************** წარმატებები ***********************************
 """
-# define function get_balance
 
 
-# call your function and print some examples
-def caller():
+def get_balance():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()

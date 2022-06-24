@@ -18,7 +18,3 @@ P.S
 def equality_repr():
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    equality_repr()

@@ -46,15 +46,8 @@ WORDS = ["aunt", "strange", "broad", "stale", "craven", "disappear", "wistful", 
          "scissors", "spectacular", "adamant", "knotty", "chief", "locket", "telling", "harbor", "stick", "dislike"]
 
 
-
-# Define functions what you need
-
-
+# Define all the functions what you need
 
 def start_game():
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    start_game()

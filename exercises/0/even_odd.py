@@ -18,7 +18,3 @@ output:
 def even_or_odd():
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    even_or_odd()

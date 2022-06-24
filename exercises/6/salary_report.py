@@ -14,14 +14,8 @@ output:
 
 *********************************** წარმატებები ***********************************
 """
-# define function get_salary_report
 
 
-# call your function and print some examples
-def caller():
+def get_salary_report():   # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()

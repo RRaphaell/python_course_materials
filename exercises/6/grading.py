@@ -34,18 +34,8 @@ Jack Frost final score = (80+50+40+20)÷4×0,1 + (75+75)÷2×0,7 + (78.2+77.2)÷
 
 *********************************** წარმატებები ***********************************
 """
-# define function calculate_grade
 
 
-# call your function and print some examples
-def caller():
+def calculate_grade():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()
-
-
-
-

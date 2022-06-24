@@ -14,14 +14,8 @@ P.S
 
 *********************************** წარმატებები ***********************************
 """
-# define function flatten_only_unique
 
 
-# call your function and print some examples
-def caller():
+def flatten_only_unique():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()

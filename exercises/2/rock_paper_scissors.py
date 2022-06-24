@@ -18,6 +18,7 @@ P.S
 
 *********************************** წარმატებები ***********************************
 """
+
 import random
 
 CHOICES = ["Rock", "Paper", "Scissors"]
@@ -26,7 +27,3 @@ CHOICES = ["Rock", "Paper", "Scissors"]
 def start():
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    start()

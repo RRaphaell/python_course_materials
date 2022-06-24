@@ -17,14 +17,8 @@ P.S
 
 *********************************** წარმატებები ***********************************
 """
-# define function multiply
 
 
-# call your function and print some examples
-def caller():
+def multiply():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()

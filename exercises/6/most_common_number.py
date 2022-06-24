@@ -11,14 +11,8 @@ output:
 
 *********************************** წარმატებები ***********************************
 """
-# define function common_number
 
 
-# call your function and print some examples
-def caller():
+def common_number():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()

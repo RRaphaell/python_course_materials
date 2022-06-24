@@ -25,14 +25,8 @@ P.S
 
 *********************************** წარმატებები ***********************************
 """
-# define function is_subset
 
 
-# call your function and print some examples
-def caller():
+def is_subset():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()

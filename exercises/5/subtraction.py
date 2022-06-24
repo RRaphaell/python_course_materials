@@ -15,14 +15,8 @@ P.S
 
 *********************************** წარმატებები ***********************************
 """
-# define function subtraction
 
 
-# call your function and print some examples
-def caller():
+def subtraction():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()

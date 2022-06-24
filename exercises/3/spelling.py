@@ -19,14 +19,7 @@ P.S
 *********************************** წარმატებები ***********************************
 """
 
-# define function get_correct_text
 
-
-# call your function and print some examples
-def caller():
+def get_correct_text():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()

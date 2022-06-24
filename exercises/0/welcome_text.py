@@ -16,8 +16,3 @@ output:
 def welcome_text():
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    welcome_text()
-

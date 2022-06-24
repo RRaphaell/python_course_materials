@@ -16,15 +16,8 @@ P.S
 
 *********************************** წარმატებები ***********************************
 """
-# define function join_tuples
 
 
-# call your function and print some examples
-def caller():
+def join_tuples():  # fill arguments
     # write your code here
     pass
-
-
-if __name__ == "__main__":
-    caller()
-
