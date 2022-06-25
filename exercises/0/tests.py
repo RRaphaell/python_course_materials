@@ -5,7 +5,6 @@ from unittest.mock import patch
 
 from welcome_text import welcome_text
 from cashier import cashier
-from convert_gel_usd import gel_usd, USD
 from find_maximum import get_maximum
 from equality_str_repr import equality_repr
 from even_odd import even_or_odd
@@ -48,30 +47,6 @@ class Test(unittest.TestCase):
         cashier()  # Call function.
         sys.stdout = sys.__stdout__  # Reset redirect.
         assert captured_output.getvalue() == "0\n"
-
-    @patch('builtins.input', side_effect=["13", "gel"])
-    def test_gel_usd_1(self, mock_inputs):
-        captured_output = io.StringIO()  # Create StringIO object
-        sys.stdout = captured_output  # and redirect stdout.
-        gel_usd()  # Call function.
-        sys.stdout = sys.__stdout__  # Reset redirect.
-        assert captured_output.getvalue() == f"{13 * USD}\n"
-
-    @patch('builtins.input', side_effect=["15", "usd"])
-    def test_gel_usd_2(self, mock_inputs):
-        captured_output = io.StringIO()  # Create StringIO object
-        sys.stdout = captured_output  # and redirect stdout.
-        gel_usd()  # Call function.
-        sys.stdout = sys.__stdout__  # Reset redirect.
-        assert captured_output.getvalue() == f"{15 / USD}\n"
-
-    @patch('builtins.input', side_effect=["12.123123123", "usd"])
-    def test_gel_usd_3(self, mock_inputs):
-        captured_output = io.StringIO()  # Create StringIO object
-        sys.stdout = captured_output  # and redirect stdout.
-        gel_usd()  # Call function.
-        sys.stdout = sys.__stdout__  # Reset redirect.
-        assert captured_output.getvalue() == f"{12.123123123 / USD}\n"
 
     @patch('builtins.input', side_effect=["13", "7", "-3"])
     def test_find_maximum_1(self, mock_inputs):

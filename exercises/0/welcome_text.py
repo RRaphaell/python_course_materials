@@ -1,15 +1,18 @@
 """
-დაწერეთ პროგრამა რომელიც მომხმარებელს შემოაყვანინებს 2 ტექსტს. სახელს და გვარს  და დაბეჭდავს შედეგ რამეს:
-Hello {მომხმარებლის მიერ შემოყვანილი სახელი} {მომხმარებლის მიერ შემოყვანილი გვარი} nice to meet you!
-
-input:
-    Raphael
-    Kalandadze
-
-output:
-    Hello Raphael Kalandadze nice to meet you!
-
-*********************************** წარმატებები ***********************************
+*********************************** Description *********************************
+                                                                                *
+write a function that gets two strings from the user. (use input())             *
+firs and last name and print the following                                      *
+hello [firstname] [lastname] nice to meet you!                                  *
+                                                                                *
+input:                                                                          *
+    Raphael                                                                     *
+    Kalandadze                                                                  *
+                                                                                *
+output:                                                                         *
+    Hello Raphael Kalandadze nice to meet you!                                  *
+                                                                                *
+*********************************** good luck ***********************************
 """
 
 

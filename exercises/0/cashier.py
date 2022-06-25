@@ -1,19 +1,22 @@
 """
-დაწერეთ პროგრამა რომელიც იქნება მოლარის იმიტაცია მომხმარებელს შემოაყვანინეთ 2 რიცხვი.
-სადაც პირველი არის მომხმარებლის თანხა ხოლო მეორე რიცხვი არის პროდუქტის ღირებულება
-დაბეჭდეთ თუ რამდენი თანხა უნდა დავუბრუნოთ მომხმარებელს
-
-input:
-    20
-    7
-
-output:
-    13
-
-P.S:
-    ჩათვალეთ რომ მომხმარებელი უარყოფით რიცხვებს არ შემოიყვანს
-
-*********************************** წარმატებები ***********************************
+*********************************** Description *************************************
+                                                                                    *
+write a function that would be an imitation of the cashier.                         *
+get two number from user (use input())                                              *
+The first one is the user's amount, and the second one is the product price         *
+print the value that the user should receive                                        *
+                                                                                    *
+input:                                                                              *
+    20                                                                              *
+    7                                                                               *
+                                                                                    *
+output:                                                                             *
+    13                                                                              *
+                                                                                    *
+P.S:                                                                                *
+    assume that only positive numbers are entered                                   *
+                                                                                    *
+*********************************** good luck ***************************************
 """
 
 
