@@ -1,17 +1,21 @@
 """
-დაწერეთ თამაში, რიცხვის გამოცნობა. სადაც წესები შემდეგია, კომპიუტერი ჩაიფიქრებს რიცხვს შემთხვევითობის პრინციპით 0 დამ 10 მდე
-და შემდეგ მომხმარებელმა უნდა გამოიცნოს ჩაფიქრებული რიცხვი, თუმცა მხოლოდ 2 ცდა აქვს. თუ ვერცერთ ცდაზე ვერ გამოიცნო დაბეჭდეთ you lose
-ხოლო თუ გამოიცნო დაბეჭდეთ you are wanga რადგან 2 ცდაზე რთულია რიცხვის გამოცნობა ამიტომ მომხმარებელს ცოტათი დავეხმაროთ.
-თუ პირველ ცდაზე შემოიყვანა რიცხვი რომელიც ჩაფიქრებულზე ნაკლებია დაბეჭდეთ your choice is lower რათა მივანიშნოთ რომ
-ჩაფიქრებული რიცხვი უფრო მეტია და დავეხმაროთ გამოცნობაში ხოლო თუ შემოყვანილი რიცხვი უფრო მეტია ვიდრე ჩაფიქრებული დაბეჭდეთ
-your choice is higher
-
-P.S
-    პრინტები დაწერეთ როგორც გინდათ ეს ამოცანა ტესტებზე არ შემოწმდება ამიტომ ეცადეთ უბრალოდ ლამაზად დაბეჭდოთ
-
-    random.randint(start, stop) start იდან stop შუალედში რანდომ რიცხვს დააბრუნებს
-
-*********************************** წარმატებები ***********************************
+***************************************** Description *******************************************
+                                                                                                *
+Make a game named "guess number"                                                                *
+where the computer chooses a number between 0 and 10, and the user has to guess it              *
+The user has two trials. If the user correctly guesses the number on one of them,               *
+you should print "you won" and print "you lose" otherwise                                       *
+                                                                                                *
+Because it's a bit hard to guess the number in 2 trials,                                        *
+here is how you can help him:                                                                   *
+if he enters a number that is lower than computer choice, print "your choice is lower"          *
+otherwise print "your choice is higher"                                                         *
+                                                                                                *
+P.S                                                                                             *
+    we don't test this exercise result, so you can use all prints and user inputs as you want   *
+    random.randint(start, stop) will return a number between start and stop                     *
+                                                                                                *
+***************************************** good luck *********************************************
 """
 
 import random

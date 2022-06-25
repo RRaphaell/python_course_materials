@@ -1,22 +1,23 @@
 """
-დაწერეთ ეგრეთწოდებული ჯეირანი. დაწერეთ პროგრამა სადაც მომხმარებელს შემოაყვანინებთ მის არჩევანს
-მაგალითად Rock Paper ან Scissors ასევე კომპიუტერმა გაკეთოს თავისი არჩევანი (რანდომის გამოყენებით)
-შემდეგ კი შეამოწმეთ თუ ვინ მოიგებს და დაბეჭდეთ. ყოველი ახალი თამაშის დროს მომხმარებელს კითხეთ სურს თუ არა თამაში კიდევ
-თუ არადა დაასრულეთ პროგრამა
-
-input:
-    Rock
-    დავუშვათ რომ კომპიუტერმა აირჩია Scissors
-
-output:
-    you win
-
-P.S
-    პრინტები დაწერეთ როგორც გინდათ ეს ამოცანა ტესტებზე არ შემოწმდება ამიტომ ეცადეთ უბრალოდ ლამაზად დაბეჭდოთ
-
-    random.randint(start, stop) start იდან stop შუალედში რანდომ რიცხვს დააბრუნებს
-
-*********************************** წარმატებები ***********************************
+***************************************** Description *******************************************
+                                                                                                *
+Make a game named "rock paper scissors".                                                        *
+Users should choose from the options of "Rock", "Paper", or "Scissors"                          *
+Using a random, computer should also make a choice and then check who won                       *
+Ask the user if he/she wants to continue the game before each iteration                         *
+                                                                                                *
+input:                                                                                          *
+    Rock                                                                                        *
+    assume that computer chose Scissors                                                         *
+                                                                                                *
+output:                                                                                         *
+    you win                                                                                     *
+                                                                                                *
+P.S                                                                                             *
+    we don't test this exercise result, so you can use all prints and user inputs as you want   *
+    random.randint(start, stop) will return a number between start and stop                     *
+                                                                                                *
+***************************************** good luck *********************************************
 """
 
 import random
