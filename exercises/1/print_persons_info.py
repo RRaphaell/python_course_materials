@@ -1,26 +1,27 @@
 """
-მოცემული გაქვთ სამი ლისტი
-პირველი (names) არის სადაც წერია ადამიანის სახელები
-მეორე (knows_java) სადაც წერია boolean ტიპები ანუ True ან False იმის და მიხედვით იცის თუ არა ჯავა
-მესამე (knows_python) სადაც წერია boolean ტიპები ანუ True ან False იმის და მიხედვით იცის თუ არა პითონი
-ინდექსით შეგიძლიათ გაარკვიოთ რომელიმე ადამიანმა იცის თუ არა პითონი ან ჯავა მაგალითად მე3 ინდექსზე მყოფმა ადამიანმა
-იცის ჯავა თუ knows_java ლისტში მე3 ინდექსზე წერია True
-დაპეჭდეთ ისეთი ადამიანის სახელები რომლებმაც იციან ან ჯავა ან პითონი ანუ ერთი მაინც ან ორივე
-
-input:
-    names = ["Oliver", "Charlotte", "William", "Sophia", "Benjamin", "Isabella", "Lucas", "Henry", "Evelyn", "Alexander"]
-    knows_java  =  [False, True, False, False, True, False, True, False, False, True]
-    knows_python = [False, False, True, False, True, False, False, False, True, True]
-
-output:
-    Charlotte
-    William
-    Benjamin
-    Lucas
-    Evelyn
-    Alexander
-
-*********************************** წარმატებები ***********************************
+***************************************************** Description ******************************************************
+                                                                                                                       *
+write a function that gets 3 lists as an argument                                                                      *
+The first one is a list of people's names                                                                              *
+The second is a list of boolean values that indicate whether the person knows Java                                     *
+The third is a list of boolean values that indicate whether the person knows Python                                    *
+for example charlotte knows Java but not Python                                                                        *
+print all people names who knows java or python                                                                        *
+                                                                                                                       *
+input:                                                                                                                 *
+    names = ["Oliver", "Charlotte", "William", "Sophia", "Benjamin", "Isabella", "Lucas", "Henry", "Evelyn", "Alex"]   *
+    knows_java  =  [False, True, False, False, True, False, True, False, False, True]                                  *
+    knows_python = [False, False, True, False, True, False, False, False, True, True]                                  *
+                                                                                                                       *
+output:                                                                                                                *
+    Charlotte                                                                                                          *
+    William                                                                                                            *
+    Benjamin                                                                                                           *
+    Lucas                                                                                                              *
+    Evelyn                                                                                                             *
+    Alex                                                                                                               *
+                                                                                                                       *
+***************************************************** good luck ********************************************************
 """
 
 names = ["Oliver", "Charlotte", "William", "Sophia", "Benjamin", "Isabella", "Lucas", "Henry", "Evelyn", "Alexander"]

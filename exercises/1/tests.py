@@ -112,7 +112,7 @@ class Test(unittest.TestCase):
         self.assertEqual("\n".join(map(str, filtered_list)), captured_output.getvalue())
 
     def test_persons_info_1(self):
-        names = ["Oliver", "Charlotte", "William", "Sophia", "Benjamin", "Isabella", "Lucas", "Henry", "Evelyn", "Alexander"]
+        names = ["Oliver", "Charlotte", "William", "Sophia", "Benjamin", "Isabella", "Lucas", "Henry", "Evelyn", "Alex"]
         knows_java = [False, True, False, False, True, False, True, False, False, True]
         knows_python = [False, False, True, False, True, False, False, False, True, True]
         filtered_list = filter(lambda x: x[1] or x[2], zip(names, knows_java, knows_python))

@@ -1,18 +1,20 @@
 """
-გვაქვს ორი რიცხვი number და power_value. for ციკლის გამოყენებით დაწერეთ პროგრამა რომელიც რიცხვ number-ს აიყვანს power_value ხარისხში,
-ანუ power_value რა რიცხვიცაა იმდენჯერ გაამრავლებს number-ს თავის თავზე და დაბეჭდავს
-
-input:
-    number = 2
-    power_value = 4
-
-output:
-    16
-
-P.S
-    არ გამოიყენოთ ოპერატორი **
-
-*********************************** წარმატებები ***********************************
+************************************** Description ****************************************
+                                                                                          *
+Create a function that takes "number" and "power_value" as arguments                      *
+and prints the "number" to the power of "power_value". use for cycle to calculate result  *
+                                                                                          *
+input:                                                                                    *
+    number = 2                                                                            *
+    power_value = 4                                                                       *
+                                                                                          *
+output:                                                                                   *
+    16                                                                                    *
+                                                                                          *
+P.S                                                                                       *
+    don't use the operator **                                                             *
+                                                                                          *
+************************************** good luck ******************************************
 """
 
 number = 2
