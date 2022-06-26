@@ -1,38 +1,37 @@
 """
-დაწერეთ ეგრეთწოდებული ჩამოხრჩობანა (hangman).
-პროცესი შემდეგია პროგრამა შემთხვევითობის პრინციპით ირჩევს რაიმე სიტყვას WORDS ლისტიდან (თუ გნებავთ თქვენი ლისტრი გააკეთეთ სასურველი სიტყვებით)
-და მომხამრებელს აძლევს საშუალებას რომ გამოიცნოს. მას შემოყავს ასოები რიგ რიგობით და თუ ეს ასო არის სიტყვაში უნდა შეავსოთ ის და აჩვენოთ
-თუ არ არის მაშინ მისი სიცოცხლეების რაოდენობა (LIFE_NUMBER) ერთით შემცირდება და როდესაც ყველა სიცოცხლეს დახარჯავს ის წააგებს თამაშს.
-ხოლო თუ მანამდე შეძლო მთლიანი სიტყვის გამოცნობა მაშინ მომხმარებელი მოგებულია. წაგების ან მოგების შემდეგ მომხმარებელს კითხეთ სურს თუ არა კიდევ თამაში,
-თუ სურს, თავიდან აირჩიეთ სიტყვა და გააგრძელეთ თამაში თუ არადა პროგრამამ დაასრულოს მუშაობა.
-გაითვალისწინეთ რომ შემოყვანილი ასო თუ რამდენიმეჯერ მეორდება სიტყვაში ყველა უნდა შეავსოთ.
-ასევე მოხმარებელს უნდა შეეძლოს დაინახოს სიტყვის ზომა და გამოცნობილი ასოები ვიზუალურად როგორც მაგალითშია მოცემული.
-
-
-
-input:
-    დავუშვათ რომ კომპიუტერმა აირჩია disappear
-    m
-output:
-    _________
-
-
-input:
-    დავუშვათ რომ კომპიუტერმა აირჩია disappear
-    a
-output:
-    ___a___a_
-
-
-P.S
-    პრინტები დაწერეთ როგორც გინდათ ეს ამოცანა ტესტებზე არ შემოწმდება ამიტომ ეცადეთ უბრალოდ ლამაზად დაბეჭდოთ
-
-    random.randint(start, stop) start იდან stop შუალედში რანდომ რიცხვს დააბრუნებს
-    გაიხსენეთ რას აკეთებდა join() split() მეთოდები
-    გამოიყენეთ ფუნქციები და აუცილებლად დაწერეთ კომენტარები
-    
-
-*********************************** წარმატებები ***********************************
+********************************************** Description ************************************************
+                                                                                                          *
+Create a classic game named hangman.                                                                      *
+To start with, you should pick a random word from "WORDS" list, and the user must guess the word.         *
+Whenever a user enters some char,                                                                         *
+if it's in our word, show it in the appropriate place (char could be several places at once).             *
+Whenever that character is not found in our word, the number of trials (LIFE_NUMBER) is reduced by one.   *
+The game ends when the user guesses the word or LIFE_NUMBER reaches zero                                  *
+Ask the user if they want to play again after the game ends                                               *
+                                                                                                          *
+                                                                                                          *
+input:                                                                                                    *
+    assume computer chose word "disappear"                                                                *
+    m                                                                                                     *
+output:                                                                                                   *
+    _________                                                                                             *
+                                                                                                          *
+                                                                                                          *
+input:                                                                                                    *
+    assume computer chose word "disappear"                                                                *
+    a                                                                                                     *
+output:                                                                                                   *
+    ___a___a_                                                                                             *
+                                                                                                          *
+                                                                                                          *
+P.S                                                                                                       *
+    we don't test this exercise result, so you can use all prints and user inputs as you want             *
+    random.randint(start, stop) will return a number between start and stop                               *
+    think about join() and split() functions                                                              *
+    use decomposition and write several functions with comments                                           *
+                                                                                                          *
+                                                                                                          *
+********************************************** good luck **************************************************
 """
 
 import random
